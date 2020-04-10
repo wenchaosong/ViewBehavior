@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleViewBehavior">
+        <attr name="svb_dependsOn" format="reference" />
+        <attr name="svb_dependType">
+            <enum name="height" value="0" />
+            <enum name="width" value="1" />
+            <enum name="x" value="2" />
+            <enum name="y" value="3" />
+        </attr>
+        <attr name="svb_dependTarget" format="dimension" />
+        <attr name="svb_targetX" format="dimension" />
+        <attr name="svb_targetY" format="dimension" />
+        <attr name="svb_targetWidth" format="dimension" />
+        <attr name="svb_targetHeight" format="dimension" />
+        <attr name="svb_targetBackgroundColor" format="color" />
+        <attr name="svb_targetAlpha" format="float" />
+        <attr name="svb_targetRotateX" format="float" />
+        <attr name="svb_targetRotateY" format="float" />
+        <attr name="svb_animation" format="reference" />
+    </declare-styleable>
+</resources>
